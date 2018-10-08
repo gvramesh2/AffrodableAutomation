@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Affordable Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.realpage.qa.affordable.extentreports.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Affordable Home Page Test Cases">
+		<classes>
+		<!--<class name="com.realpage.qa.affordable.testscripts.HomePageTests"></class>--> 
+			<class name="com.realpage.qa.affordable.prospects_testcases.CreateNewProspect"></class>
+		</classes>
+	</test>
+</suite>

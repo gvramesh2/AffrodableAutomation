@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Affordable Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.realpage.qa.affordable.extentreports.ExtentReporterNG"/>
+  </listeners>
+  <test name="Affordable Home Page Test Cases(failed)">
+    <classes>
+      <class name="com.realpage.qa.affordable.prospects_testcases.CreateNewProspect">
+        <methods>
+          <include name="setUp"/>
+          <include name="createNewProspectByclickingOnNewButton"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.realpage.qa.affordable.prospects_testcases.CreateNewProspect -->
+    </classes>
+  </test> <!-- Affordable Home Page Test Cases(failed) -->
+</suite> <!-- Failed suite [Affordable Automation Test Suite] -->
